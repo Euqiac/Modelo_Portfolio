@@ -1,0 +1,53 @@
+/* Formatação Geral */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: "Fira sans", Arial, sans-serif;
+  background-color: white;
+}
+/* -------------------------------------- */
+.conteudo {
+  display: grid;
+  padding: 20px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.menu a {
+  padding: 10px 20px;
+  color: black;
+  font-size: 1.1rem;
+}
