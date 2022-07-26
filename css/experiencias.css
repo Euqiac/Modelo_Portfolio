@@ -3,6 +3,8 @@
   grid-template-columns: 1fr 2fr;
   gap: 80px;
   padding: 70px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .experiencias h2 {
@@ -118,7 +120,14 @@
   }
 
   .experiencias-ano {
-    display: none;
+    position: initial;
+    grid-row: 3;
+    text-align: left;
+    width: initial;
+  }
+
+  .experiencias-ano::before {
+    content: "Ano: ";
   }
 }
 

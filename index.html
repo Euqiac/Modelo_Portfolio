@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, inicial-scale=1" />
     <link rel="stylesheet" href="/css/style.css" />
+    <meta
+      name="description"
+      content="Desenvolvedor Front End & UX/UI Designer"
+    />
     <title>Lobo - Desenvolvedor e Designer</title>
   </head>
 
   <body>
     <header class="cabecalho">
-      <img class="logo" src="/img/marca.svg" alt="logo" />
+      <img
+        class="logo"
+        src="/img/marca.svg"
+        alt="logo"
+        width="104px"
+        height="38px"
+      />
       <nav aria-label="Primaio">
         <ul class="menu">
           <li><a href="#experiencias">Experiência</a></li>
@@ -21,7 +31,12 @@
 
     <main class="info">
       <section aria-label="introdução" class="topo">
-        <img src="/img/perfil.jpg" alt="Foto lobo" />
+        <img
+          src="/img/perfil.jpg"
+          alt="Foto lobo"
+          width="360px"
+          height="520px"
+        />
         <div class="titulo">
           <h1>
             Desenvolvedor <br />
@@ -100,62 +115,64 @@
         </div>
       </section>
 
-      <section aria-label="Formação" class="formacao">
-        <h2 id="formacao">Formação</h2>
-        <div class="formacao-info">
-          <div class="formacao-intro">
-            <p>
-              Minha mais recente experiência acadêmica foi o
-              <b class="destaque-formacao">mestrado</b> 🎓 que fiz no exterior
-              em <b class="destaque-formacao">UX Design</b>. Além disso me
-              mantenho sempre atualizado com cursos intensivos online.
-            </p>
-          </div>
-          <ul class="lista-formacoes">
-            <li class="formacao-itens">
-              <p class="faculdade">BACHAREL</p>
-              <h4 class="faculdade-curso">Administração de Empresas</h4>
-              <p class="instuicao">UFFRJ</p>
-            </li>
-            <li class="formacao-itens">
-              <p class="faculdade">TECNÓLOGO</p>
-              <h4 class="faculdade-curso">Design Digital</h4>
-              <p class="instuicao">Infnet</p>
-            </li>
-            <li class="formacao-itens">
-              <p class="faculdade">MESTRE</p>
-              <h4 class="faculdade-curso">User Experience Design</h4>
-              <p class="instuicao">UCLL</p>
-            </li>
-          </ul>
-          <div class="cursos-idiomas">
-            <div class="cursos">
-              <!-- <img src="/img/cursos.svg" alt="" /> -->
-              <h4>Cursos Intensivos</h4>
-              <div>
-                <p>UX Design & UI Design</p>
-                <span class="destaque-cursos">56h</span>
-              </div>
-              <div>
-                <p>Front End para Iniciantes</p>
-                <span class="destaque-cursos">72h</span>
-              </div>
-            </div>
-            <div class="idiomas">
-              <!-- <img src="/img/idiomas.svg" alt="" /> -->
-              <h4>Idiomas</h4>
-              <p>Inglês <span class="destaque-idiomas">/ Fluente</span></p>
+      <section aria-label="Formação" class="formacao-section">
+        <div class="formacao">
+          <h2 id="formacao">Formação</h2>
+          <div class="formacao-info">
+            <div class="formacao-intro">
               <p>
-                Espanhol <span class="destaque-idiomas">/ Intermediário</span>
+                Minha mais recente experiência acadêmica foi o
+                <b class="destaque-formacao">mestrado</b> 🎓 que fiz no exterior
+                em <b class="destaque-formacao">UX Design</b>. Além disso me
+                mantenho sempre atualizado com cursos intensivos online.
               </p>
+            </div>
+            <ul class="lista-formacoes">
+              <li class="formacao-itens">
+                <p class="faculdade">BACHAREL</p>
+                <h4 class="faculdade-curso">Administração de Empresas</h4>
+                <p class="instuicao">UFFRJ</p>
+              </li>
+              <li class="formacao-itens">
+                <p class="faculdade">TECNÓLOGO</p>
+                <h4 class="faculdade-curso">Design Digital</h4>
+                <p class="instuicao">Infnet</p>
+              </li>
+              <li class="formacao-itens">
+                <p class="faculdade">MESTRE</p>
+                <h4 class="faculdade-curso">User Experience Design</h4>
+                <p class="instuicao">UCLL</p>
+              </li>
+            </ul>
+            <div class="cursos-idiomas">
+              <div class="cursos">
+                <!-- <img src="/img/cursos.svg" alt="" /> -->
+                <h4>Cursos Intensivos</h4>
+                <div>
+                  <p>UX Design & UI Design</p>
+                  <span class="destaque-cursos">56h</span>
+                </div>
+                <div>
+                  <p>Front End para Iniciantes</p>
+                  <span class="destaque-cursos">72h</span>
+                </div>
+              </div>
+              <div class="idiomas">
+                <!-- <img src="/img/idiomas.svg" alt="" /> -->
+                <h4>Idiomas</h4>
+                <p>Inglês <span class="destaque-idiomas">/ Fluente</span></p>
+                <p>
+                  Espanhol <span class="destaque-idiomas">/ Intermediário</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="rodape">
-      <div id="contatos" class="contatos">
-        <p>
+    <footer class="rodape-section">
+      <div id="contatos" class="rodape">
+        <p class="footer-txt">
           Estou disponível para novos projetos no momento. Entre em contato
           comigo e marcamos uma conversa 👋
         </p>
@@ -164,9 +181,7 @@
           <li class="contatos-itens">+55 21 9999-9999</li>
           <li class="contatos-itens">.@instagram</li>
         </ul>
-      </div>
-      <div class="direitos">
-        <p>Lobo. Alguns direitos reservados</p>
+        <p class="footer-copy">Lobo. Alguns direitos reservados</p>
       </div>
     </footer>
   </body>

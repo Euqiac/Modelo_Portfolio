@@ -1,9 +1,13 @@
+.formacao-section {
+  background: #141414;
+}
+
 .formacao {
   display: grid;
-  background-color: #141414;
   padding: 100px 40px;
   grid-template-columns: 1fr 2fr;
-  max-width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   gap: 80px;
 }
 

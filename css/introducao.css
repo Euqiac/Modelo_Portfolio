@@ -1,7 +1,5 @@
 .info {
   display: grid;
-  margin: 0 auto;
-  justify-items: center;
 }
 
 .topo {
@@ -11,6 +9,7 @@
   align-items: center;
   padding: 30px 10px;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .topo img {
